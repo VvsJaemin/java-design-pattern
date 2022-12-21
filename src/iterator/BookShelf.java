@@ -1,27 +1,29 @@
 package iterator;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class BookShelf implements Iterable<Book>{
 
-    private Book[] books;
-    private int last = 0;
+    private List<Book> books;
 
-    public BookShelf(int maxSize) {
-        this.books = new Book[maxSize];
+
+    public BookShelf(int lastSize) {
+        this.books = new ArrayList<>(lastSize);
     }
 
+
     public Book getBookAt(int index) {
-        return books[index];
+        return books.get(index);
     }
 
     public void appendBooks(Book book) {
-        this.books[last] = book;
-        last++;
+        books.add(book);
     }
 
     public int getLength() {
-        return last;
+        return books.size();
     }
 
     @Override
