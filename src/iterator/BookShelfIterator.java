@@ -29,6 +29,7 @@ public class BookShelfIterator implements Iterator<Book> {
         }
 
         Book book = bookShelf.getBookAt(index);
+        index++;
         return book;
     }
 }
