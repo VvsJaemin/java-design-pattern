@@ -1,0 +1,17 @@
+package adaptor2;
+
+public class Banner { // 적응(변환) 대상자
+    private String string;
+
+    public Banner(String string) {
+        this.string = string;
+    }
+
+    public void showWithParen() {
+        System.out.println("$"+string+"$");
+    }
+
+    public void showWithAster() {
+        System.out.println("@"+string+"@");
+    }
+}
