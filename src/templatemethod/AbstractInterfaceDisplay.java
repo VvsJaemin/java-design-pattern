@@ -2,17 +2,11 @@ package templatemethod;
 
 public interface AbstractInterfaceDisplay {
 
-    default void open() {
+    public void open();
 
-    }
+    public void print();
 
-    default void print() {
-
-    }
-
-    default void close() {
-
-    }
+    public void close();
 
       default void display() {
         open();

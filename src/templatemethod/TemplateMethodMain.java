@@ -1,5 +1,7 @@
 package templatemethod;
 
+import java.io.InputStream;
+
 public class TemplateMethodMain {
     public static void main(String[] args) {
         CharDisplay d1 = new CharDisplay('H');
@@ -11,5 +13,7 @@ public class TemplateMethodMain {
         //실제 동작은 하위 클래스에서 정해진다.
         d1.display();
         d2.display();
+
+
     }
 }
