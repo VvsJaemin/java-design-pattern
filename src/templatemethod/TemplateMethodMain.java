@@ -2,9 +2,9 @@ package templatemethod;
 
 public class TemplateMethodMain {
     public static void main(String[] args) {
-        AbstractDisplay d1 = new CharDisplay('H');
+        CharDisplay d1 = new CharDisplay('H');
 
-        AbstractDisplay d2 = new StringDisplay("Hello, World");
+        StringDisplay d2 = new StringDisplay("Hello, World");
 
         //d1, d2 모두 같은 AbstractDisplay의 하위 클래스의 인스턴스이므로
         //상속한 display의 메소드를 호출 할 수 있다.

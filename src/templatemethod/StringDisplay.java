@@ -1,6 +1,6 @@
 package templatemethod;
 
-public class StringDisplay extends AbstractDisplay{
+public class StringDisplay implements AbstractInterfaceDisplay{
 
     private String string;
     private int width;
