@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01d21512-a86b-450f-b2ce-f5c32cbe84ba" name="Changes" comment="templateMethod 패턴">
-      <change afterPath="$PROJECT_DIR$/src/templatemethod/AbstractInterfaceDisplay.java" afterDir="false" />
+    <list default="true" id="01d21512-a86b-450f-b2ce-f5c32cbe84ba" name="Changes" comment="templateMethod 패턴(2) - interface default로 개선">
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/FactoryMethodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/framework/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/framework/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/idcard/IDCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/idcard/IDCardFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/AbstractDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/templatemethod/AbstractDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/CharDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/templatemethod/CharDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templatemethod/TemplateMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/templatemethod/TemplateMethodMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,20 @@
       <recent name="adaptor2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethodMain">
+  <component name="RunManager" selected="Application.FactoryMethodMain">
+    <configuration name="FactoryMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factorymethod.FactoryMethodMain" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adaptor3.FileMain" />
       <module name="DesignPattern" />
@@ -93,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryMethodMain" />
         <item itemvalue="Application.TemplateMethodMain" />
         <item itemvalue="Application.FileMain" />
       </list>
@@ -113,7 +128,8 @@
       <workItem from="1671809215778" duration="359000" />
       <workItem from="1671848705530" duration="722000" />
       <workItem from="1671864308179" duration="3480000" />
-      <workItem from="1671944637930" duration="583000" />
+      <workItem from="1671944637930" duration="1005000" />
+      <workItem from="1672061904873" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="iterator 패턴(2) - ArrayList로 코드 개선">
       <created>1671634462121</created>
@@ -150,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671867789707</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="templateMethod 패턴(2) - interface default로 개선">
+      <created>1671945603282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671945603282</updated>
+    </task>
+    <task id="LOCAL-00007" summary="templateMethod 패턴(2) - interface default로 개선">
+      <created>1671945813133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671945813133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +191,8 @@
     <MESSAGE value="adapter 패턴(1)" />
     <MESSAGE value="adapter 패턴(2) 연습문제(위임방식)" />
     <MESSAGE value="templateMethod 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="templateMethod 패턴" />
+    <MESSAGE value="templateMethod 패턴(2) - interface default로 개선" />
+    <option name="LAST_COMMIT_MESSAGE" value="templateMethod 패턴(2) - interface default로 개선" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
