@@ -1,15 +1,17 @@
 package prototype;
 
+import prototype.framework.ConcreteProduct;
 import prototype.framework.Product;
+import prototype.framework.Product2;
 
-public class MessageBox implements Product {
+public class MessageBox2 extends ConcreteProduct {
     private char decochar;
 
-    public MessageBox(char decochar) {
+    public MessageBox2(char decochar) {
         this.decochar = decochar;
     }
 
-    public MessageBox(MessageBox protoType) {
+    public MessageBox2(MessageBox2 protoType) {
         this.decochar = protoType.decochar;
     }
 
@@ -30,6 +32,6 @@ public class MessageBox implements Product {
 
     @Override
     public Product createCopy() {
-        return new MessageBox(this);
+        return new MessageBox2(this);
     }
 }

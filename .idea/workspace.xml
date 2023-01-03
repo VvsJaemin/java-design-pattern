@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01d21512-a86b-450f-b2ce-f5c32cbe84ba" name="Changes" comment="Singleton 패턴">
-      <change afterPath="$PROJECT_DIR$/src/prototype/MessageBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/PrototypeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/UnderlinePen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/framework/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/framework/Product.java" afterDir="false" />
+    <list default="true" id="01d21512-a86b-450f-b2ce-f5c32cbe84ba" name="Changes" comment="Prototype 패턴(1)">
+      <change afterPath="$PROJECT_DIR$/src/prototype/MessageBox2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/UnderlinePen2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/framework/ConcreteProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/framework/Product2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/MessageBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/MessageBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/PrototypeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/PrototypeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/UnderlinePen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/UnderlinePen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
       <recent name="iterator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="prototype" />
       <recent name="singleton" />
       <recent name="adaptor2" />
     </key>
@@ -162,7 +164,8 @@
       <workItem from="1672061904873" duration="2997000" />
       <workItem from="1672146223587" duration="3275000" />
       <workItem from="1672238940189" duration="46000" />
-      <workItem from="1672667222263" duration="1695000" />
+      <workItem from="1672667222263" duration="1992000" />
+      <workItem from="1672756096302" duration="1417000" />
     </task>
     <task id="LOCAL-00001" summary="iterator 패턴(2) - ArrayList로 코드 개선">
       <created>1671634462121</created>
@@ -234,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672153057428</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Prototype 패턴(1)">
+      <created>1672671469704</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672671469704</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +259,8 @@
     <MESSAGE value="Factory Method 패턴" />
     <MESSAGE value="Factory Method 패턴(2) - 시리얼 번호 추가&#10;구현 클래스에서..." />
     <MESSAGE value="Singleton 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton 패턴" />
+    <MESSAGE value="Prototype 패턴(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype 패턴(1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,7 +11,6 @@ public class PrototypeMain {
         MessageBox mbox = new MessageBox('*');
         MessageBox sbox = new MessageBox('/');
 
-
         //등록
         manager.register("Strong Message", upen );
         manager.register("Waring Box", mbox );
