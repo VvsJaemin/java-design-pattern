@@ -1,6 +1,5 @@
 package prototype.framework;
 
-import prototype.UnderlinePen;
 
 public abstract class ConcreteProduct implements Product{
     @Override

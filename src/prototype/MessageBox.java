@@ -1,6 +1,7 @@
 package prototype;
 
 import prototype.framework.Product;
+import prototype.framework.ProductCl;
 
 public class MessageBox implements Product {
     private char decochar;
