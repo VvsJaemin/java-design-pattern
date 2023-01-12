@@ -1,12 +1,12 @@
 package builder;
 
 
-public abstract class Builder {
-    abstract void makeTitle(String title);
+public interface  Builder {
+     void makeTitle(String title);
 
-    abstract void makeString(String str);
+     void makeString(String str);
 
-    abstract void makeItems(String[] items);
+     void makeItems(String[] items);
 
-    abstract void close();
+     void close();
 }

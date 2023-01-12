@@ -4,11 +4,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 
-public class HTMLBuilder extends Builder{
+public class HTMLBuilder implements Builder{
     private String fileName = "untitle.html";
     private StringBuilder sb = new StringBuilder();
     @Override
-    void makeTitle(String title) {
+    public void makeTitle(String title) {
         fileName = title + ".html";
         sb.append("<!DOCTYPE html>\n");
         sb.append("<html>\n");
@@ -23,14 +23,14 @@ public class HTMLBuilder extends Builder{
     }
 
     @Override
-    void makeString(String str) {
+   public void makeString(String str) {
         sb.append("<p>");
         sb.append(str);
         sb.append("</p>\n\n");
     }
 
     @Override
-    void makeItems(String[] items) {
+   public void makeItems(String[] items) {
         sb.append("<ul>\n");
         for (String s : items) {
             sb.append("<li>");
@@ -42,7 +42,7 @@ public class HTMLBuilder extends Builder{
     }
 
     @Override
-    void close() {
+   public void close() {
         sb.append("</body>");
         sb.append("</html>\n");
         try {

@@ -1,9 +1,10 @@
 package builder;
 
-public class TextBuilder extends Builder{
+public class TextBuilder implements Builder {
     private StringBuilder sb = new StringBuilder();
+
     @Override
-    void makeTitle(String title) {
+    public void makeTitle(String title) {
         sb.append("========================");
         sb.append("[");
         sb.append(title);
@@ -11,14 +12,14 @@ public class TextBuilder extends Builder{
     }
 
     @Override
-    void makeString(String str) {
+    public void makeString(String str) {
         sb.append("a");
         sb.append(str);
         sb.append("\n\n");
     }
 
     @Override
-    void makeItems(String[] items) {
+    public void makeItems(String[] items) {
         for (String s : items) {
             sb.append(" .");
             sb.append(s);
@@ -29,7 +30,7 @@ public class TextBuilder extends Builder{
     }
 
     @Override
-    void close() {
+    public void close() {
         sb.append("=======================");
     }
 
