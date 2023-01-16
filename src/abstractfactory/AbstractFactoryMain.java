@@ -42,7 +42,8 @@ public class AbstractFactoryMain {
         newsTray.add(news3);
 
 
-        Page page = factory.createPage("Blog and News", "개타원");
+//        Page page = factory.createPage("Blog and News", "개타원");
+        Page page = factory.createNaverPage();
         page.add(blogTray);
         page.add(newsTray);
 

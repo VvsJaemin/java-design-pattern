@@ -6,7 +6,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Page {
+public abstract class Page implements HTMLable {
 
     protected String title;
     protected String author;
@@ -30,5 +30,5 @@ public abstract class Page {
         }
     }
 
-    public abstract String makeHTML();
+//    public abstract String makeHTML();
 }

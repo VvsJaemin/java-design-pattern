@@ -11,6 +11,10 @@ public abstract class Tray extends Item {
         super(caption);
     }
 
+//    public void add(Item item) {
+//        tray.add(item);
+//    }
+
     public void add(Item item) {
         tray.add(item);
     }
