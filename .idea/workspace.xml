@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01d21512-a86b-450f-b2ce-f5c32cbe84ba" name="Changes" comment="추상팩토리 패턴(1) - 추상 클래스에서 인터페이스로 리팩토링" />
+    <list default="true" id="01d21512-a86b-450f-b2ce-f5c32cbe84ba" name="Changes" comment=".gitignore">
+      <change afterPath="$PROJECT_DIR$/src/bridge/BridgeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/func/CountDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/func/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/func/IncreaseDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/func/RandomCountDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/impl/CharDisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/impl/DisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/impl/FileDisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/impl/StringDisplayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="bridge" />
       <recent name="abstractfactory.divfactory" />
       <recent name="abstractfactory.listfactory" />
       <recent name="iterator" />
@@ -64,7 +76,7 @@
       <recent name="adaptor2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryMain">
+  <component name="RunManager" selected="Application.BridgeMain">
     <configuration name="AbstractFactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractfactory.AbstractFactoryMain" />
       <module name="DesignPattern" />
@@ -78,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuilderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.BuilderMain" />
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.BridgeMain" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="builder.*" />
+          <option name="PATTERN" value="bridge.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototype.PrototypeMain" />
+    <configuration name="BuilderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="builder.BuilderMain" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.*" />
+          <option name="PATTERN" value="builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.AbstractFactoryMain" />
         <item itemvalue="Application.BuilderMain" />
         <item itemvalue="Application.PrototypeMain3" />
         <item itemvalue="Application.PrototypeMain2" />
-        <item itemvalue="Application.PrototypeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +177,8 @@
       <workItem from="1673441402650" duration="597000" />
       <workItem from="1673529439961" duration="859000" />
       <workItem from="1673836724756" duration="3619000" />
-      <workItem from="1673874857219" duration="1028000" />
+      <workItem from="1673874857219" duration="1148000" />
+      <workItem from="1674207583041" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="iterator 패턴(2) - ArrayList로 코드 개선">
       <created>1671634462121</created>
@@ -286,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673875958090</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary=".gitignore">
+      <created>1673876104028</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673876104028</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +339,8 @@
     <MESSAGE value="Builder 패턴(1) - 인터페이스로 변경" />
     <MESSAGE value="추상팩토리 패턴(1)" />
     <MESSAGE value="추상팩토리 패턴(1) - 추상 클래스에서 인터페이스로 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="추상팩토리 패턴(1) - 추상 클래스에서 인터페이스로 리팩토링" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
